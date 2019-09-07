@@ -1,0 +1,29 @@
+{
+    "name": "llvvlv00/scanner",
+    "description": "Scan URLs from a CSV file and report inaccessible URLs",
+    "keywords": ["url", "scanner", "csv"],
+    "homepage": "http://example.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "llvvlv00",
+            "homepage": "https://github.com/lvyinhong",
+            "role": "developer"
+        }
+    ],
+    "support": {
+        "email": "help@hupu.com"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"    
+    },
+    "suggest": {
+        "league/csv": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oreilly\\ModernPHP\\": "src/"
+        }
+    }    
+}
